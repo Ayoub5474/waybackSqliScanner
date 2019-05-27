@@ -1,4 +1,4 @@
-import queue
+import Queue
 import threading
 import sys
 
@@ -10,7 +10,7 @@ class sqliWaybackClass():
 
     def __init__(self):
         self.urls = []
-        self.q = queue.Queue()
+        self.q = Queue.Queue()
 
     def getWaybackUrls(self,domain):
         self.urls = []
